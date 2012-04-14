@@ -25,7 +25,7 @@ use vars qw(@EXPORT @ISA $VERSION $AUTOLOAD);
 	     megahal_cleanup);
 
 @ISA = qw(Exporter DynaLoader);
-$VERSION = '0.07';
+$VERSION = '0.07_01';
 
 sub AUTOLOAD {
     # This AUTOLOAD is used to 'autoload' constants from the constant()
@@ -208,7 +208,10 @@ None known at this time.
 =head1 SEE ALSO
 
 POE::Component::AI::MegaHAL - IRC bot,
-L<http://teaandbiscuits.org.uk/drupal/node/65> - Irssi IRC bot
+
+L<http://teaandbiscuits.org.uk/drupal/node/65> - Irssi IRC bot,
+
+L<Hailo> - A pluggable Markov engine analogous to MegaHAL  
 
 =head1 AUTHOR
 
